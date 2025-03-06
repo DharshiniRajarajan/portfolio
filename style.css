@@ -1,0 +1,195 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #0e0e0e, #0d0d0d, #0b0b0b);
+    color: #fff;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* Header & Navbar */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 26px;
+    color: #4da9cd;
+    font-weight: bold;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #74b290;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #59a49f;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #0f0915, #0f0915);
+    color: #547584;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background: #71cad0;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #52c4c6;
+    color: #429db6;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #d4de7c;
+}
+
+/* Projects */
+.project {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #7884da;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #49859f;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background: #47a0af;
+    color: #333;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Internship */
+.internship-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Certificates */
+#certificates ul {
+    list-style: none;
+    padding: 0;
+}
+
+#certificates li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact p a {
+    color: #61cedf;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    color: #1b6c87;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
